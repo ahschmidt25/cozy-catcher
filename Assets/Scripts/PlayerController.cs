@@ -5,7 +5,7 @@ public class PlayerController : MonoBehaviour
 {
     [SerializeField] private float moveSpeed = 8f;
 
-    void update()
+    void Update()
     {
         Keyboard keyboard = Keyboard.current;
         if (keyboard == null) return;
